@@ -1,6 +1,6 @@
 # AppCleaner (macOS) — Get Started in Minutes
 
-![Hero](assets/hero-v2.png)
+![Hero](https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/0769529f61a08a992e9c9d8c06a90c86_low_res_AppCleaner___Liquid_Glass__Default_.png)
 
 **AppCleaner** helps you remove macOS apps and their related files in a safe, transparent way.  
 This repository is a **documentation-only** quick start. It does **not** host binaries, mirrors, or modified installers.
